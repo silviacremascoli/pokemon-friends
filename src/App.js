@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function App() {
   return (
     <div>
-      {Array(150)
+      {Array(151)
         .fill(true)
         .map((_, i) => (
           <Card key={i} />
